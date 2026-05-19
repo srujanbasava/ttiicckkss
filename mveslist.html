@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            margin: 0;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        .message {
+            font-size: 20px;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+
+        .theater-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .theater-list li {
+            background: white;
+            color: #333;
+            margin: 15px 0;
+            padding: 18px;
+            font-size: 20px;
+            border-radius: 12px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .theater-list li:hover {
+            transform: scale(1.03);
+            background: #ffd700;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🎬 Movie Ticket Selection 🎬</h1>
+
+        <div class="message">
+            <b>YOU ARE ELIGIBLE FOR THE MOVIE TO WATCH ONLY KRISHNAVATARAM PART 1 ONLY 11:00 AM SHOW OF TWO TICKETS.</b>
+            <br><br>
+            PLEASE SELECT ABOVE THEATERS
+        </div>
+
+        <ul class="theater-list">
+            <a href="email.html"><li>1. JAGADHAMBA 4K DOLBY</li></a>
+            <a href="email.html"><li>2. INOX, MADDILAPALEM</li></a>
+            <a href="email.html"><li>3. KAMESHWARI & KINNARA</li></a>
+            <a href="email.html"><li>4. SRI LAKSHMI NARASIMHA PICTURES</li></a>
+        </ul>
+    </div>
+
+</body>
+</html>
